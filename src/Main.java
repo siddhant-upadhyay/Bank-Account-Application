@@ -7,13 +7,13 @@ public class Main {
 
         // create first account of Hdfc
         HDFCAccount hdfcAccount1 = new HDFCAccount("Ram", 1000 , "abc@123" );
-        System.out.println("congrats !! "+hdfcAccount1.getName()+
+        System.out.println("Congrats !! "+hdfcAccount1.getName()+
                 " your account has been created with account no. "
                 +hdfcAccount1.getAccountNumber());
 
         // create second account of Hdfc
         HDFCAccount hdfcAccount2 = new HDFCAccount("Shyam", 2000 , "abc@123" );
-        System.out.println("congrats !! "+hdfcAccount2.getName()+
+        System.out.println("Congrats !! "+hdfcAccount2.getName()+
                 " your account has been created with account no. "
                 +hdfcAccount2.getAccountNumber());
 
